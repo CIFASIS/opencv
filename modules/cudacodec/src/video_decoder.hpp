@@ -44,7 +44,7 @@
 #ifndef __VIDEO_DECODER_HPP__
 #define __VIDEO_DECODER_HPP__
 
-#include <nvcuvid.h>
+#include "/opt/nvidia-video-codec/include/nvcuvid.h"
 
 #include "opencv2/core/private.cuda.hpp"
 #include "opencv2/cudacodec.hpp"

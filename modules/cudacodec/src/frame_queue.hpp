@@ -47,7 +47,7 @@
 #include "opencv2/core/utility.hpp"
 #include "opencv2/core/private.cuda.hpp"
 
-#include <nvcuvid.h>
+#include "/opt/nvidia-video-codec/include/nvcuvid.h"
 
 namespace cv { namespace cudacodec { namespace detail
 {

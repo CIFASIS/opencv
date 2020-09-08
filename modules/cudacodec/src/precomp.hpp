@@ -56,7 +56,8 @@
 #include "opencv2/core/private.cuda.hpp"
 
 #ifdef HAVE_NVCUVID
-    #include <nvcuvid.h>
+    #include "/opt/nvidia-video-codec/include/nvcuvid.h"
+    	
 
     #ifdef WIN32
         #define NOMINMAX

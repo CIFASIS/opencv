@@ -50,7 +50,7 @@
 #include "opencv2/cudaarithm.hpp"
 #include "opencv2/core/utility.hpp"
 
-#include "opencv2/core/private.cuda.hpp"
+#include "opencv2/core/private.cuda.hpp"  
 
 #ifdef HAVE_CUBLAS
 #  include <cublas.h>

@@ -50,6 +50,11 @@
 #include "opencv2/core/cuda.hpp"
 #include "opencv2/core/cuda_stream_accessor.hpp"
 
+#if __CUDACC_VER_MAJOR__ >= 9
+#include <cuda_fp16.h>
+#endif
+
+
 namespace cv { namespace cudev {
 
 //! @addtogroup cudev
